@@ -37,7 +37,7 @@ final class Autoloader {
 			return self::$is_loaded;
 		}
 
-		$autoloader      = WP_MCP_DIR . '/vendor/autoload.php';
+		$autoloader      = WP_MCP_DIR . 'vendor/autoload.php';
 		self::$is_loaded = self::require_autoloader( $autoloader );
 
 		return self::$is_loaded;
